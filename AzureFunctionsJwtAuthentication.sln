@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{247F1EDB-47A1-4FAF-918C-48E4C399CADB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{247F1EDB-47A1-4FAF-918C-48E4C399CADB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthenticationFx", "JwtAuthenticationFx\JwtAuthenticationFx.csproj", "{5B1A1297-A6FC-42E5-ADDD-F0D5933F7B83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtAuthenticationFx", "JwtAuthenticationFx\JwtAuthenticationFx.csproj", "{5B1A1297-A6FC-42E5-ADDD-F0D5933F7B83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthetnicationV1", "JwtAuthetnicationV1\JwtAuthetnicationV1.csproj", "{6F11A53B-BD5A-4E46-BE8E-2F3F93D845C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5B1A1297-A6FC-42E5-ADDD-F0D5933F7B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B1A1297-A6FC-42E5-ADDD-F0D5933F7B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B1A1297-A6FC-42E5-ADDD-F0D5933F7B83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F11A53B-BD5A-4E46-BE8E-2F3F93D845C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F11A53B-BD5A-4E46-BE8E-2F3F93D845C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F11A53B-BD5A-4E46-BE8E-2F3F93D845C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F11A53B-BD5A-4E46-BE8E-2F3F93D845C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
